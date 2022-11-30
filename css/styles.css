@@ -421,6 +421,131 @@ width: auto;
         color: white;
         display: flex;
     }
+
+
+    /*Fin Contacto */
+
+    /* Inicio Servicios */
+
+
+    .logotipo-servicios {
+        width: 100%;
+        height: 250px;
+        transform: translateY(25px);
+        background-image: linear-gradient(aqua 70%, rgb(31, 183, 31));
+    }
+    
+    .cabecera-servicios {
+    background-image: linear-gradient(rgb(31, 183, 31) 60%, aqua);
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .cabecera-servicios h1 {
+        padding: 30px;
+        font-size: 60px;
+        margin-bottom: 80px;
+        transform: translateY(30px);
+    }
+    
+    .principal-servicios {
+        grid-area: main;
+        background-image: linear-gradient( rgb(31, 183, 31), aqua);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+
+    .principal-servicios p {
+        background-image: linear-gradient(rgb(250, 101, 238), rgb(59, 2, 59));
+        font-size: 30px;
+        border: solid 4px;
+        border-radius: 50px;
+        padding: 25px;
+        font-weight: bold;
+        margin-left: 30px;
+        
+
+    }
+    
+
+    .publicidad-servicios {
+    background-image: linear-gradient( rgb(31, 183, 31), aqua);
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    }
+    
+    .publicidad-servicios h2 {
+        font-size: 30px;
+        margin-top: 120px; 
+        border: solid 4px black;
+        border-radius: 10px;
+        padding: 20px;
+        color: aliceblue;
+        background-image: linear-gradient(rgb(250, 101, 238), rgb(59, 2, 59));
+        width: auto;
+    }
+    
+    .publicidad-servicios div {
+        border: solid 4px;
+        border-radius: 30px;
+        padding: 20px;
+        margin: 50px 50px;
+        background-color: crimson;
+    }
+    
+    .publicidad-servicios div p {
+        margin: 20px;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    
+    .publicidad-servicios div iframe {
+        border: solid 4px;
+        border-radius: 30px;
+    }
+        
+    
+    .pie-servicios {
+        background-image: linear-gradient(aqua, rgb(31, 183, 31));
+        grid-area: footer;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        }
+    
+    
+        .pie-servicios div {
+            display: flex;
+            
+        }
+        
+        .pie-servicios div p {
+            background-image: linear-gradient(deeppink, black); 
+            font-size: 25px;
+            border: solid 4px;
+            border-radius: 10px;
+            padding: 30px;
+            
+        }
+        
+        .pie-servicios a {
+            text-decoration: none;
+            color: white;
+            display: flex;
+        }
     
 
 
@@ -565,4 +690,72 @@ width: auto;
         }
         
     
+    
+
+
+
+
+
+
+    .principal-servicios p {
+       margin-top: 100px;
+       margin-right: 30px;
     }
+   
+    .publicidad-servicios {
+        background-image: linear-gradient(aqua, rgb(31, 183, 31));
+
+    }
+    
+    .publicidad-servicios h2 {
+       margin-bottom: 100px;
+    }
+    
+    .publicidad-servicios div {
+        height: auto;
+        width: 600px;
+    }
+    
+    .publicidad-servicios div iframe {
+    height: auto;
+    width: 100%;
+    border: none;
+    }
+    
+    .publicidad-servicios div p {
+        font-size: 30px;
+    }
+    
+    
+    .pie-servicios {
+        background-image: linear-gradient(rgb(31, 183, 31), aqua);
+        grid-area: footer;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        }
+
+
+        .pie-servicios div {
+            display: flex;
+            
+        }
+        
+        .pie-servicios div p {
+            background-image: linear-gradient(deeppink, black); 
+            font-size: 25px;
+            border: solid 4px;
+            border-radius: 10px;
+            padding: 30px;
+            
+        }
+        
+        .pie-servicios a {
+            text-decoration: none;
+            color: white;
+            display: flex;
+        }
+        
+    
+}
