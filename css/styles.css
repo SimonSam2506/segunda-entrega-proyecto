@@ -676,6 +676,144 @@ width: auto;
                 display: flex;
             }
 
+            /* Fin Recomendaciones */
+
+            /* Inicio Conocenos */
+
+            .logotipo-conocenos {
+                width: 100%;
+                height: 250px;
+                transform: translateY(25px);
+                background-image: linear-gradient(aqua 70%, rgb(31, 183, 31));
+            }
+            
+            .cabecera-conocenos {
+            background-image: linear-gradient(rgb(31, 183, 31) 60%, aqua);
+            grid-area: header;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
+            
+            .cabecera-conocenos h1 {
+                padding: 30px;
+                font-size: 60px;
+                margin-bottom: 80px;
+                transform: translateY(30px);
+            }
+
+            .principal-conocenos {
+                grid-area: main;
+                background-image: linear-gradient( rgb(31, 183, 31), aqua);
+                
+            }
+
+            .principal-conocenos h2 {
+                font-size: 30px;
+                border: solid 4px black;
+                border-radius: 100px;
+                padding: 20px;
+                color: aliceblue;
+                background-image: linear-gradient(rgb(250, 101, 238), rgb(59, 2, 59));
+                text-align: center;
+                transform: translateY(200px);
+                margin-left: 30px;
+            }
+
+
+            .principal-conocenos p {
+                font-size: 45px;
+                text-align: center;
+                border: solid 4px;
+                border-radius: 80px;
+                padding: 30px;
+                transform: translateY(300px);
+                background-image: linear-gradient( rgba(5, 62, 248, 0.422), rgb(255, 89, 0));
+                margin-left: 30px;
+
+            }
+
+            .publicidad-conocenos {
+                background-image: linear-gradient( rgb(31, 183, 31), aqua);
+                grid-area: aside;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                width: auto;
+                }
+                
+                .publicidad-conocenos h2 {
+                    font-size: 30px;
+                    margin-top: 120px; 
+                    border: solid 4px black;
+                    border-radius: 10px;
+                    padding: 20px;
+                    color: aliceblue;
+                    background-image: linear-gradient(rgb(250, 101, 238), rgb(59, 2, 59));
+                    width: auto;
+                }
+                
+                .publicidad-conocenos div {
+                    border: solid 4px;
+                    border-radius: 30px;
+                    padding: 20px;
+                    margin: 50px 50px;
+                    background-color: crimson;
+                }
+                
+                .publicidad-conocenos div p {
+                    margin: 20px;
+                    border-radius: 10px;
+                    padding: 20px;
+                    font-size: 30px;
+                }
+                
+                .publicidad-conocenos div iframe {
+                    border: solid 4px;
+                    border-radius: 30px;
+                }
+
+                .pie-conocenos {
+                    background-image: linear-gradient(aqua, rgb(31, 183, 31));
+                    grid-area: footer;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    }
+                
+                
+                    .pie-conocenos div {
+                        display: flex;
+                        
+                    }
+                    
+                    .pie-conocenos div p {
+                        background-image: linear-gradient(deeppink, black); 
+                        font-size: 25px;
+                        border: solid 4px;
+                        border-radius: 10px;
+                        padding: 30px;
+                        
+                    }
+                    
+                    .pie-conocenos a {
+                        text-decoration: none;
+                        color: white;
+                        display: flex;
+                    }
+
+                    /* Fin Conocenos */
+
+         
+
+
+
+
+
     
 
 
